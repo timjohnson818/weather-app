@@ -1,0 +1,43 @@
+.search-history {
+    margin-top: 20px;
+}
+
+.search-history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.search-history li {
+    margin-bottom: 10px;
+}
+
+.search-history li a {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.weather-card {
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+.weather-card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.weather-card-body {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.weather-card-body p {
+    margin: 0;
+}
