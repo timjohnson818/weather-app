@@ -39,9 +39,6 @@ function getWeather(city) {
 
         // Update the list of previous cities on the page
         updatePreviousCities(previousCities);
-    }).fail(function (error) {
-        // Show an error message if the city is not found
-        $("#weatherTable").html(`<div class='alert alert-danger'>City not found.</div>`);
     });
 }
 
